@@ -78,7 +78,7 @@ o = 9
 if o > 0:
     print('Bye')
 
-ss = ['cat', 'wolf', 'ostrich']
-if 'lion' in ss:
+name_ = ['cat', 'wolf', 'ostrich']
+if 'lion' in name_:
     print('Wow!')
 
