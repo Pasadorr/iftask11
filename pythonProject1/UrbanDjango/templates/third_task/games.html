@@ -1,0 +1,17 @@
+<!-- task3/templates/third_task/games.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+</head>
+<body>
+    <h1>Магазин</h1>
+    <ul>
+        {% for game in games %}
+            <li>{{ game.name }} <button>{{ game.button }}</button></li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'platform' %}">Вернуться обратно</a>
+</body>
+</html>
